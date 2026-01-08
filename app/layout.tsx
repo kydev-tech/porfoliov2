@@ -13,26 +13,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Galang Rizky Arridho - Web Developer & Operations Specialist Portfolio",
-  description: "Professional portfolio of Galang Rizky Arridho. Experienced Web Developer specializing in Next.js, Laravel, PHP, and TypeScript. Also skilled in operations management, warehouse management, and laser machine operations.",
+  title: "Galang Rizky Arridho | Web Developer & Operations Specialist Portfolio",
+  description: "Galang Rizky Arridho - Professional Web Developer from Jakarta specializing in Next.js, Laravel, PHP, and TypeScript. Also experienced in operations management, warehouse management, purchasing, and laser machine operations. Portfolio showcasing web development projects and professional experience.",
   keywords: [
     "Galang Rizky Arridho",
-    "Web Developer",
-    "Full Stack Developer",
-    "Next.js Developer",
-    "Laravel Developer",
-    "PHP Developer",
+    "Galang Rizky",
+    "Rizky Arridho",
+    "kydev",
+    "kydev tech",
+    "Web Developer Jakarta",
+    "Full Stack Developer Jakarta",
+    "Next.js Developer Indonesia",
+    "Laravel Developer Jakarta",
+    "PHP Developer Indonesia",
     "TypeScript Developer",
-    "Portfolio",
+    "Galang Rizky Arridho Portfolio",
+    "Galang Rizky Arridho Web Developer",
     "Jakarta Developer",
-    "Warehouse Management",
+    "Warehouse Management Jakarta",
     "Operations Management",
-    "Purchasing Staff",
+    "Purchasing Staff Jakarta",
     "Laser Machine Operator",
-    "Frontend Developer",
-    "Backend Developer"
+    "Frontend Developer Jakarta",
+    "Backend Developer Indonesia",
+    "Rawamangun Developer",
+    "Web Developer Rawamangun"
   ],
-  authors: [{ name: "Galang Rizky Arridho" }],
+  authors: [{ name: "Galang Rizky Arridho", url: "https://kydev.my.id" }],
   creator: "Galang Rizky Arridho",
   publisher: "Galang Rizky Arridho",
   robots: {
@@ -51,23 +58,24 @@ export const metadata: Metadata = {
     locale: "id_ID",
     alternateLocale: ["en_US", "ja_JP"],
     url: "https://kydev.my.id",
-    title: "Galang Rizky Arridho - Web Developer & Operations Specialist",
-    description: "Professional portfolio showcasing web development projects and operational expertise in Jakarta, Indonesia.",
+    title: "Galang Rizky Arridho | Web Developer & Operations Specialist",
+    description: "Galang Rizky Arridho - Professional Web Developer from Jakarta. Portfolio showcasing web development projects using Next.js, Laravel, PHP, and TypeScript.",
     siteName: "Galang Rizky Arridho Portfolio",
     images: [
       {
         url: "https://kydev.my.id/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Galang Rizky Arridho Portfolio",
+        alt: "Galang Rizky Arridho - Web Developer Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Galang Rizky Arridho - Web Developer & Operations Specialist",
-    description: "Professional portfolio showcasing web development projects and operational expertise.",
+    title: "Galang Rizky Arridho | Web Developer & Operations Specialist",
+    description: "Galang Rizky Arridho - Professional Web Developer from Jakarta specializing in Next.js, Laravel, and TypeScript.",
     images: ["https://kydev.my.id/og-image.png"],
+    creator: "@kylangs12",
   },
   viewport: {
     width: "device-width",
@@ -159,6 +167,78 @@ export default function RootLayout({
               "author": {
                 "@type": "Person",
                 "name": "Galang Rizky Arridho"
+              },
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://kydev.my.id/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
+        />
+        
+        {/* Structured Data - BreadcrumbList */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://kydev.my.id"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "About Galang Rizky Arridho",
+                  "item": "https://kydev.my.id/#about"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Experience",
+                  "item": "https://kydev.my.id/#experience"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "name": "Projects",
+                  "item": "https://kydev.my.id/#projects"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "name": "Contact",
+                  "item": "https://kydev.my.id/#contact"
+                }
+              ]
+            })
+          }}
+        />
+        
+        {/* Structured Data - ProfilePage */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ProfilePage",
+              "mainEntity": {
+                "@type": "Person",
+                "name": "Galang Rizky Arridho",
+                "alternateName": "kydev",
+                "identifier": "galang-rizky-arridho",
+                "description": "Web Developer and Operations Specialist from Jakarta",
+                "image": "https://kydev.my.id/profile.jpg",
+                "sameAs": [
+                  "https://github.com/kydev-tech/",
+                  "https://www.linkedin.com/in/galang-rizky-9a06522a8",
+                  "https://www.instagram.com/kylangs12"
+                ]
               }
             })
           }}

@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://kydev.my.id/#person",
+  "name": "Galang Rizky Arridho",
+  "givenName": "Galang Rizky",
+  "familyName": "Arridho",
+  "alternateName": ["kydev", "Galang Rizky", "Rizky Arridho"],
+  "url": "https://kydev.my.id",
+  "image": "https://kydev.my.id/profile.jpg",
+  "description": "Professional Web Developer from Jakarta specializing in Next.js, Laravel, PHP, and TypeScript. Also experienced in operations management, warehouse management, and laser machine operations.",
+  "jobTitle": [
+    "Web Developer",
+    "Full Stack Developer",
+    "Operations Specialist",
+    "Warehouse Management",
+    "Purchasing Staff"
+  ],
+  "hasOccupation": [
+    {
+      "@type": "Occupation",
+      "name": "Web Developer",
+      "skills": "Next.js, Laravel, PHP, TypeScript, MySQL, Tailwind CSS"
+    },
+    {
+      "@type": "Occupation",
+      "name": "Operations Management",
+      "skills": "Warehouse Management, Purchasing, Laser Machine Operations"
+    }
+  ],
+  "workLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rawamangun",
+      "addressRegion": "Jakarta Timur",
+      "addressCountry": "Indonesia"
+    }
+  },
+  "homeLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jl. Poncol Atas No.87",
+      "addressLocality": "Rawamangun, Jakarta Timur",
+      "addressRegion": "DKI Jakarta",
+      "postalCode": "13220",
+      "addressCountry": "ID"
+    }
+  },
+  "email": "rizkygalang729@gmail.com",
+  "telephone": "+6285714608649",
+  "sameAs": [
+    "https://github.com/kydev-tech/",
+    "https://www.linkedin.com/in/galang-rizky-9a06522a8",
+    "https://www.instagram.com/kylangs12"
+  ],
+  "knowsAbout": [
+    "Web Development",
+    "Next.js",
+    "React",
+    "Laravel",
+    "PHP",
+    "TypeScript",
+    "JavaScript",
+    "MySQL",
+    "Tailwind CSS",
+    "Frontend Development",
+    "Backend Development",
+    "Full Stack Development",
+    "Warehouse Management",
+    "Operations Management",
+    "Purchasing",
+    "Inventory Management",
+    "Laser Machine Operations",
+    "Administrative Work"
+  ],
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "Web Development & Operations"
+  },
+  "memberOf": {
+    "@type": "Organization",
+    "name": "Freelance Developer"
+  }
+}
