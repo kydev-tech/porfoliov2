@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://kydev.my.id/#person",
+  "@id": "https://www.kydev.my.id/#person",
   "name": "Galang Rizky Arridho",
   "givenName": "Galang Rizky",
   "familyName": "Arridho",
   "alternateName": ["kydev", "Galang Rizky", "Rizky Arridho"],
-  "url": "https://kydev.my.id",
-  "image": "https://kydev.my.id/profile.jpg",
+  "url": "https://www.kydev.my.id",
+  "image": "https://www.kydev.my.id/profile.jpg",
   "description": "Professional Web Developer from Jakarta specializing in Next.js, Laravel, PHP, and TypeScript. Also experienced in operations management, warehouse management, and laser machine operations.",
   "jobTitle": [
     "Web Developer",

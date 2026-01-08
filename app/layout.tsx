@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     "Rawamangun Developer",
     "Web Developer Rawamangun"
   ],
-  authors: [{ name: "Galang Rizky Arridho", url: "https://kydev.my.id" }],
+  authors: [{ name: "Galang Rizky Arridho", url: "https://www.kydev.my.id" }],
   creator: "Galang Rizky Arridho",
   publisher: "Galang Rizky Arridho",
   robots: {
@@ -57,13 +57,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "id_ID",
     alternateLocale: ["en_US", "ja_JP"],
-    url: "https://kydev.my.id",
+    url: "https://www.kydev.my.id",
     title: "Galang Rizky Arridho | Web Developer & Operations Specialist",
     description: "Galang Rizky Arridho - Professional Web Developer from Jakarta. Portfolio showcasing web development projects using Next.js, Laravel, PHP, and TypeScript.",
     siteName: "Galang Rizky Arridho Portfolio",
     images: [
       {
-        url: "https://kydev.my.id/og-image.png",
+        url: "https://www.kydev.my.id/og-image.png",
         width: 1200,
         height: 630,
         alt: "Galang Rizky Arridho - Web Developer Portfolio",
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Galang Rizky Arridho | Web Developer & Operations Specialist",
     description: "Galang Rizky Arridho - Professional Web Developer from Jakarta specializing in Next.js, Laravel, and TypeScript.",
-    images: ["https://kydev.my.id/og-image.png"],
+    images: ["https://www.kydev.my.id/og-image.png"],
     creator: "@kylangs12",
   },
   viewport: {
@@ -86,11 +86,11 @@ export const metadata: Metadata = {
     google: "your-google-verification-code",
   },
   alternates: {
-    canonical: "https://kydev.my.id",
+    canonical: "https://www.kydev.my.id",
     languages: {
-      'id-ID': 'https://kydev.my.id',
-      'en-US': 'https://kydev.my.id/en',
-      'ja-JP': 'https://kydev.my.id/ja',
+      'id-ID': 'https://www.kydev.my.id',
+      'en-US': 'https://www.kydev.my.id/en',
+      'ja-JP': 'https://www.kydev.my.id/ja',
     },
   },
 };
@@ -106,7 +106,7 @@ export default function RootLayout({
         {/* Additional SEO Meta Tags */}
         <meta name="theme-color" content="#3b82f6" />
         <meta name="color-scheme" content="light dark" />
-        <link rel="canonical" href="https://kydev.my.id" />
+        <link rel="canonical" href="https://www.kydev.my.id" />
         
         {/* Structured Data - Organization */}
         <script
@@ -116,8 +116,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "Galang Rizky Arridho",
-              "url": "https://kydev.my.id",
-              "image": "https://kydev.my.id/profile.jpg",
+              "url": "https://www.kydev.my.id",
+              "image": "https://www.kydev.my.id/profile.jpg",
               "jobTitle": "Web Developer & Operations Specialist",
               "worksFor": {
                 "@type": "Organization",
@@ -161,7 +161,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Galang Rizky Arridho Portfolio",
-              "url": "https://kydev.my.id",
+              "url": "https://www.kydev.my.id",
               "description": "Professional portfolio of Galang Rizky Arridho - Web Developer and Operations Specialist",
               "inLanguage": ["id-ID", "en-US", "ja-JP"],
               "author": {
@@ -170,7 +170,7 @@ export default function RootLayout({
               },
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://kydev.my.id/?s={search_term_string}",
+                "target": "https://www.kydev.my.id/?s={search_term_string}",
                 "query-input": "required name=search_term_string"
               }
             })
@@ -189,31 +189,31 @@ export default function RootLayout({
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://kydev.my.id"
+                  "item": "https://www.kydev.my.id"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "About Galang Rizky Arridho",
-                  "item": "https://kydev.my.id/#about"
+                  "item": "https://www.kydev.my.id/#about"
                 },
                 {
                   "@type": "ListItem",
                   "position": 3,
                   "name": "Experience",
-                  "item": "https://kydev.my.id/#experience"
+                  "item": "https://www.kydev.my.id/#experience"
                 },
                 {
                   "@type": "ListItem",
                   "position": 4,
                   "name": "Projects",
-                  "item": "https://kydev.my.id/#projects"
+                  "item": "https://www.kydev.my.id/#projects"
                 },
                 {
                   "@type": "ListItem",
                   "position": 5,
                   "name": "Contact",
-                  "item": "https://kydev.my.id/#contact"
+                  "item": "https://www.kydev.my.id/#contact"
                 }
               ]
             })
@@ -233,7 +233,7 @@ export default function RootLayout({
                 "alternateName": "kydev",
                 "identifier": "galang-rizky-arridho",
                 "description": "Web Developer and Operations Specialist from Jakarta",
-                "image": "https://kydev.my.id/profile.jpg",
+                "image": "https://www.kydev.my.id/profile.jpg",
                 "sameAs": [
                   "https://github.com/kydev-tech/",
                   "https://www.linkedin.com/in/galang-rizky-9a06522a8",
