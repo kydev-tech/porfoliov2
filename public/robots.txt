@@ -1,20 +1,13 @@
 # robots.txt for Galang Rizky Arridho Portfolio
-# This file tells search engines which pages they can crawl
 
-# Allow all search engines to crawl everything
 User-agent: *
 Allow: /
 
-# Disallow crawling of API routes (if any)
+# Disallow crawling of API routes
 Disallow: /api/
 
-# Crawl-delay for polite crawling (optional)
-# Crawl-delay: 1
+# Disallow Next.js build files
+Disallow: /_next/
 
 # Sitemap location
 Sitemap: https://kydev.my.id/sitemap.xml
-
-# Additional sitemaps (if you have multiple languages)
-# Sitemap: https://kydev.my.id/sitemap-id.xml
-# Sitemap: https://kydev.my.id/sitemap-en.xml
-# Sitemap: https://kydev.my.id/sitemap-ja.xml
