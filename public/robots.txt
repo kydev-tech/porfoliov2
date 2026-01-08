@@ -8,10 +8,6 @@ Allow: /
 # Disallow crawling of API routes (if any)
 Disallow: /api/
 
-# Disallow crawling of private files
-Disallow: /_next/
-Disallow: /static/
-
 # Crawl-delay for polite crawling (optional)
 # Crawl-delay: 1
 
